@@ -1,0 +1,21 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/socket.io": "^2.1.12",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
